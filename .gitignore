@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Supabase environment variables and local configuration
+.supabase/
+supabase/.temp/
+supabase/.cache/
+supabase/.env.local
+
+# Supabase database files and migrations
+supabase/migrations/
+supabase/db/.supabase/
+
+# Supabase functions (if using edge functions)
+.supabase/functions/.env
+.supabase/functions/node_modules/
+
+# Build files
+dist/
+out/
+.next/
+.vercel/
+
+# Logs
+*.log
+*.out
+
+# IDE/editor specific files
+.vscode/
+.idea/
+.DS_Store
